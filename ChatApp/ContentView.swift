@@ -21,6 +21,9 @@ struct ContentView: View {
                             MessageBubble(message: message)
                         }
                     }
+                    .padding(.top, 10)
+                    .background(.white)
+                    .cornerRadius(30, corners: [.topLeft, .topRight]) // Custom cornerRadius modifier added in Extensions file
                     .onChange(of: messagesManager.lastMessageId) { id in
                         // When the lastMessageId changes, scroll to the bottom of the conversation
                         withAnimation {
@@ -28,9 +31,6 @@ struct ContentView: View {
                         }
                     }
                 }
-                .padding(.top, 10)
-                .background(.white)
-                .cornerRadius(30, corners: [.topLeft, .topRight]) // Custom cornerRadius modifier added in Extensions file
             }
             .background(Color("Peach"))
             
