@@ -2,7 +2,7 @@
 <h1 align="center">
  💬 ChatApp tutorial
 </h1>
-Source code for the Chat app built in the <a href="">YouTube tutorial</a>
+Source code for the Chat app built in the <a href="https://youtu.be/Zz9XQy8PRpQ">YouTube tutorial</a>
 
 &nbsp;
 
